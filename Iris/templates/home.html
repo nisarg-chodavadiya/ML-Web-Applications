@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+
+<body bgcolor="LightSkyBlue" >
+	<h1 style="text-align:center;"> Iris Flower Classifier </h1>
+
+	<div style="text-align:center;">
+		<form method="POST" action="{{url_for('home')}}">
+			  <label for="sl">Sepal Length&nbsp;&nbsp;</label>
+			  <input type="text" id="sl" name="sl"><br>
+			<br>
+			  <label for="sw">Sepal Width&nbsp;&nbsp;</label>
+			  <input type="text" id="sw" name="sw"><br>
+			<br>
+			  <label for="pl">Petal Length&nbsp;&nbsp;</label>
+			  <input type="text" id="pl" name="pl"><br>
+			<br>
+			  <label for="pw">Petal Width&nbsp;&nbsp;</label>
+			  <input type="text" id="pw" name="pw"><br>
+			<br>
+				<br>
+			  <input type="submit" value="Predict">
+		</form>
+	</div>
+</body>
+
+</html>
